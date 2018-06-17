@@ -76,14 +76,14 @@ p > a { @if $link-style == underline
     }
   }
 
-body { width: 87.5%;
+body { width: 60em;
        margin-left: auto;
        margin-right: auto;
        padding-left: 12.5%;
        font-family: et-bembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        background-color: $bg-color;
        color: $text-color;
-       max-width: 1400px;
+       max-width: 87.5%;
        counter-reset: sidenote-counter; }
 
 // --------- Typography stuff -----------//
@@ -216,7 +216,7 @@ ul,ol { width: 45%;
 
 //li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
 
-figure, figure img.maincolumn { max-width: 55%;
+figure, figure img.maincolumn { max-width: 80%;
          -webkit-margin-start: 0;
          -webkit-margin-end: 0;
          margin-bottom: 3em; }
@@ -268,7 +268,7 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
                    color: $contrast-color;
                    top: 0rem; } //removed superscripting for numerical reference in sidenote
 
-p, footer, div.table-wrapper, div.mathblock{ width: 55%; }
+p, footer, div.table-wrapper, div.mathblock{ width: 80%; }
 
 div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' so scroll bars appear only as needed
 
